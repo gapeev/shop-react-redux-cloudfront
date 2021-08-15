@@ -1,3 +1,15 @@
+## Task #2 Links
+
+Manual configured s3/cloudfront resources:
+- [S3 link](http://rs-nodejs-in-aws-manual-bucket.s3-website-eu-west-1.amazonaws.com)
+- [Cloudfront link](https://d17e8234efrtdd.cloudfront.net)
+
+Automated configured s3/cloudfront resources:
+- [S3 link](http://rs-nodejs-in-aws-bucket.s3-website-eu-west-1.amazonaws.com)
+- [Cloudfront link](https://d2iza9tnr7o63p.cloudfront.net)
+
+## CRA
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

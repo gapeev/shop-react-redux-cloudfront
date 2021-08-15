@@ -1,10 +1,12 @@
-service: node-in-aws-web
+service: rs-nodejs-in-aws
 
 frameworkVersion: '2'
 
 provider:
   name: aws
   runtime: nodejs12.x
+  stage: dev
+  region: eu-west-1
   # setup profile for AWS CLI.
   # profile: node-aws
 
@@ -17,7 +19,7 @@ plugins:
 
 custom:
   client:
-    bucketName: node-in-aws-web-bucket
+    bucketName: rs-nodejs-in-aws-bucket
     distributionFolder: build
   s3BucketName: ${self:custom.client.bucketName}
 
